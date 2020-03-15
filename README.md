@@ -4,7 +4,7 @@ Just some stuff that I occasionally work on
 
 ## Python
 
-All knowledge is derived from CodeHS.com
+All knowledge is derived from CodeHS.com and Google Classroom
 
 ### Taken from the assignment
 
