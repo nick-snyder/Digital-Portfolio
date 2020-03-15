@@ -1,10 +1,13 @@
 # Digital-Portfolio
+
 Just some stuff that I occasionally work on. Most are school assignments right now.
 
-## Known Languages:
+## Known Languages
+
 Python
 C#
 
-## Not Well Known:
+## Not Well Known
+
 JavaScript
 HTML
