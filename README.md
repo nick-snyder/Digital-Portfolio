@@ -4,7 +4,7 @@ Most recent Language that I have learned
 
 ## C# .NET
 
-Knowledge is from Codecademy.com and Google Classroom assigments
+Knowledge is from Codecademy.com and Google Classroom
 
 ### Taken from the assignment
 
