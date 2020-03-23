@@ -6,28 +6,32 @@ namespace Exercise03_2
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter a number: ");
-            int numberOne = Convert.ToInt32(Console.ReadLine());
+            int[] numbers = Ask();
 
-            Console.Write("Enter another number: ");
-            int numberTwo = Convert.ToInt32(Console.ReadLine());
-
-            if (numberTwo == 0)
+            if (numbers[1] == 0)
             {
                 Game();
                 
-                Console.Write("Enter a number: ");
-                numberOne = Convert.ToInt32(Console.ReadLine());
+                numbers = Ask();
 
-                Console.Write("Enter another number: ");
-                numberTwo = Convert.ToInt32(Console.ReadLine());
-
-                Part2(numberOne, numberTwo);
+                Part2(numbers);
             }
             else
             {
-                Part2(numberOne, numberTwo);
+                Part2(numbers);
             }
+        }
+        static int[] Ask()
+        {
+            int[] numbers = new int[2];
+
+            Console.Write("Enter a number: ");
+            numbers[0] = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter another number: ");
+            numbers[1] = Convert.ToInt32(Console.ReadLine());
+
+            return numbers;
         }
         static void Game()
         {
@@ -51,23 +55,23 @@ Oh and while you're here, here's the madatory loop as well:
 
             Console.WriteLine("\nAnd now its time to return to our regularly scheduled programming. get it? programming");
         }
-        static void Part2(int numberOne, int numberTwo)
+        static void Part2(int[] numbers)
         {
-            Console.WriteLine($"\n    Sum is: {numberOne + numberTwo}\n    Difference is: {numberOne - numberTwo}\n    Product is: {numberOne * numberTwo}\n    Quotient is: {numberOne / numberTwo}\n    Remainder is: {numberOne % numberTwo}");
+            Console.WriteLine($"\n    Sum is: {numbers[0] + numbers[1]}\n    Difference is: {numbers[0] - numbers[1]}\n    Product is: {numbers[0] * numbers[1]}\n    Quotient is: {numbers[0] / numbers[1]}\n    Remainder is: {numbers[0] % numbers[1]}");
 
-            if (numberOne != 0)
+            if (numbers[0] != 0)
             {
-                Hypotenuse(numberOne, numberTwo);
-                Angles(numberOne, numberTwo);
+                Hypotenuse(numbers);
+                Angles(numbers);
             }
 
             Console.Write("\nPress any key to continue . . .");
             string aaaa = Console.ReadLine();
         }
-        static void Hypotenuse(int numberOne, int numberTwo)
+        static void Hypotenuse(int[] numbers)
         {
-            double a = Convert.ToDouble(numberOne);     // Converts int to double
-            double b = Convert.ToDouble(numberTwo);
+            double a = Convert.ToDouble(numbers[0]);     // Converts int to double
+            double b = Convert.ToDouble(numbers[1]);
 
             double aSquared = Math.Pow(a, 2);   // Raises to power of two
             double BSquared = Math.Pow(b, 2);
@@ -80,10 +84,10 @@ Oh and while you're here, here's the madatory loop as well:
 
             Console.WriteLine($"    Hypotenuse Leg: {cRounded}");
         }
-        static void Angles(int numberOne, int numberTwo)
+        static void Angles(int[] numbers)
         {
-            double a = Convert.ToDouble(numberOne);     // Converts int to double
-            double b = Convert.ToDouble(numberTwo);
+            double a = Convert.ToDouble(numbers[0]);     // Converts int to double
+            double b = Convert.ToDouble(numbers[1]);
 
             double angleOppositeToSideA = Math.Atan(b / a);     // Inverse tangent of angles, output is in radians
             double angleOppositeToSideB = Math.Atan(a / b);
