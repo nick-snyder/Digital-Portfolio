@@ -4,10 +4,10 @@ Just some stuff that I occasionally work on. Most are school assignments right n
 
 ## Known Languages
 
-Python
+Python,
 C#
 
 ## Not Well Known
 
-JavaScript
+JavaScript,
 HTML
