@@ -1,3 +1,5 @@
+// Write a console application that performs arithmetical operations and outputs them to the console.
+
 using System;
 
 namespace Exercise03_2
