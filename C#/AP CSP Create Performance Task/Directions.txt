@@ -1,0 +1,95 @@
+1.
+    Write a console application that compares two numbers in
+    if statements and displays a summary of the comparison.
+
+        Enter first integer: 45
+        Enter second integer: 5
+        45 != 5
+        45 > 5
+        45 >= 5
+
+2.
+    Write an application that takes three integers from user input and displays the sum, average, product, and smallest and largest of the numbers. Use the techniques from Fig. 3.22. [Note: The average calculation in this exercise should result in an integer representation of the average. So, if the sum of the values is 7, the average should be 2, not 2.3333….]
+
+        Enter first integer: 200
+        Enter second integer: 300
+        Enter third integer: 100
+
+        For the numbers 200, 300 and 100
+        Largest is 300
+        Smallest is 100
+        Sum is 600
+        Product is 6000000
+        Average is 200
+
+3.
+    Using only the programming techniques you learned in this chapter, 
+    write an application that calculates
+    the squares and cubes of the numbers from 0 to 10 and 
+    displays the resulting values in table format, as
+    shown below. Only one variable, named x, should be created. 
+    Use tabs (“\t”) between numbers to align
+    outputted numbers 
+    [Note: This application does not require any input from the user.]
+
+        number     square    cube
+        0         0         0
+        1         1         1
+        2         4         8
+        3         9         27
+        4         16        64
+        5         25        125
+        6         36        216
+        7         49        343
+        8         64        512
+        9         81        729
+        10        100       1000
+
+    Hint:
+    Write a Console.WriteLine statement which displays a number (num), its square (num * num)
+    and its cube (num * num * num)  with int x;
+
+4.
+    Create a BMI calculator application that reads the user’s weight in pounds and height in inches (or, if
+    you prefer, the user’s weight in kilograms and height in meters) from user input, then calculates and
+    displays the user’s body mass index. The application should also display the following information from
+    the Department of Health and Human Services/National Institutes of Health so the user can evaluate
+    his/her BMI:
+
+    BMI = weightInPounds × 703 / heightInInches × heightInInches
+    Weight in pounds (lbs.) multiplied by the conversion factor 703 and then all is divided by
+    height in inches (in) squared.
+
+        Welcome to the body mass index (BMI) calculator
+        Enter your weight in pounds: 165
+        Enter your height in inches: 69
+        Your BMI is: 24
+
+        BMI VALUES
+        Underweight: less than 18.5
+        Normal: between 18.5 and 24.9
+        Overweight: between 25 and 29.9
+        Obese: 30 or greater
+
+5.
+    Write a program using a private method that includes a 
+    loop to make a pattern like a pyramid with the numbers 0-10, 
+    increasing by 1. (Bonus: pass an argument into the method).
+       1 
+      2 3 
+     4 5 6 
+    7 8 9 10
+
+    Then, ask the user for color choice using an if/else if/else statement.
+       1 
+      2 3 
+     4 5 6 
+    7 8 9 10
+
+    Finally, using a switch statement, have the program display 
+    the pyramid using a single special character symbol 
+    (symbols above the number keys) that the user inputs.
+       * 
+      * * 
+     * * * 
+    * * * *

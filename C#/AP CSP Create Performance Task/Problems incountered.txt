@@ -1,0 +1,1 @@
+Day 1: If 'default' case was triggered (i.e. bad input), next choice would not change bool variable, thus 'while loop' will run forever. -- Fixed

@@ -1,0 +1,11 @@
+Calculator
+
+trigonometry
+simple math (+-*/%)
+Conversion
+
+input
+3 options
+display outcome
+
+done

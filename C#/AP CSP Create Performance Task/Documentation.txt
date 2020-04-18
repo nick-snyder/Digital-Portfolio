@@ -1,0 +1,7 @@
+Day 1
+    Created Program.cs
+    Created methods
+    Created selection feature
+    Functional build
+Day 2
+    
